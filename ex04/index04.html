@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Exercise 04 - The Box Model</title>
+  <link rel="stylesheet" href="style04.css">
+</head>
+<body>
+
+  <h1>CSS Box Model Comparison</h1>
+
+  <main class="container">
+    <div class="box content-box">
+      <h2>box-sizing: content-box</h2>
+      <p>Total rendered width = width + padding + border (300px + 40px + 10px = <strong>350px</strong>)</p>
+    </div>
+
+    <div class="box border-box">
+      <h2>box-sizing: border-box</h2>
+      <p>Total rendered width = declared width (<strong>300px</strong> total, absorbs padding and border)</p>
+    </div>
+  </main>
+
+</body>
+</html>
